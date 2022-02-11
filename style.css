@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "typo";
+    src: url("D:/Documents/BeCode/Exe/ReproducingLayout/reproducing-layout/resources/bahnschrift.ttf") format("truetype");
+
+    font-family: "typo1";
+    src: url("D:/Documents/BeCode/Exe/ReproducingLayout/reproducing-layout/resources/Marcellus-Regular.ttf") format("truetype");
+}
+
+body{
+    font-family: "typo", sans-serif;
+    font-size: 1em;
+    margin: 100px 200px 100px 200px;
+}
+
+
+/*------------------------------------------------- HEAD SECTION -----------------------------------------------------------*/
+
+.headSection{
+    margin-bottom: 80px;
+    text-align: right;
+}
+
+q{
+    color: rgb(180, 180, 180);
+    font-family: "typo1";
+}
+
+
+/*------------------------------------------------- SECTION PROFIL -----------------------------------------------------------*/
+
+
+section{
+    margin: 120px auto;
+}
+
+h2{
+    border-bottom: 0.1em solid rgb(32, 32, 32);
+    width: auto;
+    padding-bottom: 10px;
+}
+
+
+/*------------------------------------------------- SECTION HOBBIES -----------------------------------------------------------*/
+
+
+table, td {
+    border:1px solid black;
+}
+
+td{
+    padding-left: 20px;
+}
+
+.firstColumn{
+    width: 220px;
+}
+
+.secondColumn{
+    width: 260px;
+}
+label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input:after{
+    content: "✓";
+    font-weight: 900;
+    font-size: 0.8em;
+    color: white;
+    display: none;
+}
+
+input:checked:after{
+    display: block;
+}
+
+
+/*------------------------------------------------- FOOT SECTION -----------------------------------------------------------*/
+
+
+.footSection{
+    margin-top: 100px;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
